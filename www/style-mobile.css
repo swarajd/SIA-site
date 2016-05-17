@@ -1,0 +1,84 @@
+/*
+    UNIVERSAL/LAYOUT STYLES
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #f39c12, #f39c12 33.33%, #ecf0f1 33.33%, #ecf0f1, #ecf0f1 66.66%, #2ecc71 66.66%, #2ecc71, #2ecc71 100%);
+}
+
+.black-overlay {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.body-container {
+    width: 93vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 100vh;
+
+    background: #ecf0f1;
+}
+
+.site-title {
+
+    text-align: center;
+
+    color: #2c3e50;
+
+    font-family: Halant, serif;
+    font-size: 75px;
+    font-weight: 600;
+
+    padding-top: 75px;
+    padding-bottom: 35px;
+
+}
+
+.page-content {
+    padding: 100px 100px;
+}
+
+
+/*
+    NAVBAR
+*/
+
+.site-navbar {
+    text-align: center;
+}
+
+.site-navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navbar > ul > li {
+    display: inline;
+
+    padding: 0px 35px;
+}
+
+.site-navbar > ul > li > a {
+    
+    text-decoration: none;
+
+    color: #2c3e50;
+
+    font-family: Halant, serif;
+    font-size: 40px;
+    font-weight: 600;
+
+}

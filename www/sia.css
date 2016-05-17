@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(to bottom, #f39c12, #f39c12 33.33%, #ecf0f1 33.33%, #ecf0f1, #ecf0f1 66.66%, #2ecc71 66.66%, #2ecc71, #2ecc71 100%);
+}
+
+.black_overlay {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.swj-container {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 100vh;
+
+  background: #ecf0f1;
+
+  box-shadow: 6px 0px 5px -5px #999, -6px 0px 5px -5px #999;
+}
+
+h1 {
+  color: #2c3e50;
+  font-family: Halant, serif;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+p {
+  
+  font-family: Halant, serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px auto;
+}
+
+.nav-item {
+  color: #2c3e50;
+  font-family: Halant, serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.selected {
+  border-bottom: 2px solid #34495e;
+  width: 50%;
+}
+
+.swj-header {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.swj-navbar {
+  text-align: center;
+}
+
+.swj-content {
+  padding: 50px 50px;
+}
+
+.subtitle {
+  color: #2c3e50;
+  font-family: Halant, serif;
+  font-size: 45px;
+  font-weight: 400;
+
+  padding-bottom: 40px;
+}
+
+.stockimg {
+  width: 100%;
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.info > p {
+  width: 80%;
+  margin: 0px auto;
+  font-weight: 500;
+  font-size: 15px;
+  color: #2c3e50;
+  font-family: Open Sans, sans-serif;
+}
