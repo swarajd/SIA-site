@@ -162,6 +162,28 @@ body {
     margin-bottom: 30px;
 }
 
+.exec-president-container {
+    width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+.exec-vp-container {
+    width: 33%;
+    flex-basis: 33%;
+    margin-bottom: 30px;
+}
+
+.empty-space-sixth {
+    width: 16.67%;
+    flex-basis: 16.67%;
+}
+
+.empty-space-third {
+    width: 33.33%;
+    flex-basis: 33.33%;
+}
+
 .exec-member {
     width: 160px;
     margin-left: auto;
@@ -169,6 +191,11 @@ body {
 }
 
 .exec-name {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.exec-title {
     text-align: center;
     font-family: Open Sans, sans-serif;
 }
