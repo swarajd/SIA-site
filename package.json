@@ -26,7 +26,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "harp compile && surge ./www"
+      "pre-push": "surge ./www"
     }
   },
   "devDependencies": {
