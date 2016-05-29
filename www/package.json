@@ -7,8 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "dev": "gulp",
-    "build": "harp compile"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,14 +25,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "harp compile && surge ./www"
+      "pre-push": "surge ./www"
     }
-  },
-  "devDependencies": {
-    "browser-sync": "^2.12.10",
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
-    "harp": "^0.20.3"
   }
 }
