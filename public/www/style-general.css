@@ -7,16 +7,18 @@
 }
 
 body {
-    height: 100%;
+    /*height: 100vh;*/
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: linear-gradient(to bottom, #f39c12, #f39c12 33.33%, #ecf0f1 33.33%, #ecf0f1, #ecf0f1 66.66%, #2ecc71 66.66%, #2ecc71, #2ecc71 100%);
+    background-attachment: scroll;
+    background-size: 100% 100vh;
+    background: linear-gradient(to bottom, #f39c12, #f39c12 33.33vh, #ecf0f1 33.33vh, #ecf0f1, #ecf0f1 66.66vh, #2ecc71 66.66vh, #2ecc71, #2ecc71 100vh);
 }
 
 .black-overlay {
-  height: 100%;
+  /*height: 100%;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100% 100vh;
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -144,4 +146,29 @@ body {
     margin: 0 auto;
     width: 720px;
     height: 540px;
+}
+
+/*
+    EXEC BOARD CONTENT
+*/
+.exec-members {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.exec-member-container {
+    width: 33%;
+    flex-basis: 33%;
+    margin-bottom: 30px;
+}
+
+.exec-member {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exec-name {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
 }
