@@ -4,7 +4,7 @@ var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 
 gulp.task('serve', function() {
-    harp.server(__dirname, {
+    harp.server(__dirname + '/public', {
         port: 9000
     }, function() {
         browserSync.init(   {
@@ -12,7 +12,7 @@ gulp.task('serve', function() {
             open: false
         });
 
-        gulp.watch(["*.ejs", "*.css"]).on("change", function() {
+        gulp.watch(["public/*.ejs", "public/*.css"]).on("change", function() {
             reload();
         });
     });
