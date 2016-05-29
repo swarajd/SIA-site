@@ -9,17 +9,17 @@
 body {
     /*height: 100vh;*/
     background-repeat: no-repeat;
-    background-attachment: scroll;
     background-size: 100% 100vh;
     background: linear-gradient(to bottom, #f39c12, #f39c12 33.33vh, #ecf0f1 33.33vh, #ecf0f1, #ecf0f1 66.66vh, #2ecc71 66.66vh, #2ecc71, #2ecc71 100vh);
+    background-attachment: fixed;
 }
 
 .black-overlay {
   /*height: 100%;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100% 100vh;
   background: rgba(0, 0, 0, 0.1);
+  background-attachment: fixed;
 }
 
 
