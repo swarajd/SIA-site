@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "gulp",
-    "build": "harp compile"
+    "build": "harp compile public"
   },
   "repository": {
     "type": "git",
