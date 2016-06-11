@@ -43,9 +43,10 @@
             "density": 4
         }
     ],
-    "splash_screens": [{
-        "src": "icon/144.png",
-        "sizes": "144x144"
-    }],
-    
+    "splash_screens": [
+        {
+            "src": "icon/144.png",
+            "sizes": "144x144"
+        }
+    ]
 }
