@@ -21,19 +21,15 @@
   },
   "homepage": "https://github.com/swarajd/SIA-site#readme",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
     "git-scripts": "^0.2.1",
+    "gulp": "^3.9.1",
+    "harp": "^0.20.3",
     "surge": "^0.18.0"
   },
   "git": {
     "scripts": {
       "pre-push": "harp compile public && surge ./public/www"
     }
-  },
-  "devDependencies": {
-    "browser-sync": "^2.12.10",
-    "gulp": "^3.9.1"
-  },
-  "dependencies": {
-    "harp": "^0.20.3"
   }
 }
