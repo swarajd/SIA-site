@@ -41,7 +41,7 @@
             "sizes": "196x196",
             "type": "image/png",
             "density": 4
-        },
+        }
     ],
     "splash_screens": [{
         "src": "icon/144.png",
