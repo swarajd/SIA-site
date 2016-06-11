@@ -2,8 +2,12 @@
     "name": "Website for the Society of Indian Americans",
     "short_name": "SIA",
     "icons": [{
-        "src": "144.png",
+        "src": "icon/144.png",
         "sizes": "144x144",
         "type": "image/png"
     }],
+    "splash_screens": [{
+        "src": "icon/144.png",
+        "sizes": "144x144"
+    }]
 }
