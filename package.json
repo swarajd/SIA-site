@@ -30,7 +30,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "harp compile public && surge ./public/www"
+      "pre-push": "gulp build && surge ./public/www"
     }
   }
 }
