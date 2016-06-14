@@ -60,19 +60,8 @@
 */
 
 .event-card {
-    border-style: solid;
-    border-radius: 2px;
-    border-width: 1px;
-    border-color: #D5D9D9;
-
-    background-color: #f2f6f7;
-
-    /*padding: 10px 20px;*/
 
     margin-bottom: 10px;
-
-    box-shadow: 10px 0px 9px -9px #999, -10px 0px 9px -9px #999, 0px 10px 9px -9px;
-    font-family: Open Sans, sans-serif;
 
 }
 
