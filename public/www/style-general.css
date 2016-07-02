@@ -1,0 +1,202 @@
+/*
+    UNIVERSAL/LAYOUT STYLES
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    /*height: 100vh;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background: linear-gradient(to bottom, #f39c12, #f39c12 33.33vh, #ecf0f1 33.33vh, #ecf0f1, #ecf0f1 66.66vh, #2ecc71 66.66vh, #2ecc71, #2ecc71 100vh);
+    background-attachment: fixed;
+}
+
+.black-overlay {
+  /*height: 100%;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  background: rgba(0, 0, 0, 0.1);
+  background-attachment: fixed;
+}
+
+
+/*
+    NAVBAR
+*/
+
+.site-navbar {
+    text-align: center;
+}
+
+.site-navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navbar > ul > li {
+    display: inline;
+
+    padding: 0px 35px;
+}
+
+.site-navbar > ul > li > a {
+    
+    text-decoration: none;
+
+    color: #2c3e50;
+
+    font-family: Halant, serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.site-navbar > ul > li > a {
+    
+    text-decoration: none;
+
+    color: #2c3e50;
+
+    font-family: Halant, serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.site-navbar > ul > li > a:hover {
+    border-bottom: 2px solid #34495e;
+}
+
+/*
+    BODY CONTENT
+*/
+
+.page-content {
+    padding: 50px 50px;
+
+    color: #2c3e50;
+}
+
+.title {
+    font-family: Halant, serif;
+    padding-bottom: 20px;
+    text-indent: 35px;
+    font-weight: 400;
+}
+
+.info {
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+    text-indent: 35px;
+
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*
+    HOME CONTENT
+*/
+
+.event-card {
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #D5D9D9;
+
+    background-color: #f2f6f7;
+
+    /*padding: 10px 20px;*/
+
+    margin-bottom: 30px;
+
+    /*box-shadow: 6px 0px 5px -5px #999, -6px 0px 5px -5px #999, 0px 6px 5px -5px;*/
+    box-shadow: 0 2px 5px #999;
+    font-family: Open Sans, sans-serif;
+
+}
+
+.event-card > hr {
+    height: 0px;
+    border: 0;
+    border-top: 1px solid #D5D9D9;
+}
+
+.event-title {
+    padding: 10px 20px;
+    font-family: Halant, serif;
+}
+
+.event-info {
+    padding: 10px 20px;
+}
+
+.event-date {
+    padding: 10px 20px;
+}
+
+/*
+    CALENDAR CONTENT
+*/
+
+.siacalendar {
+    margin: 0 auto;
+    width: 720px;
+    height: 540px;
+}
+
+/*
+    EXEC BOARD CONTENT
+*/
+.exec-members {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.exec-member-container {
+    width: 33%;
+    flex-basis: 33%;
+    margin-bottom: 30px;
+}
+
+.exec-president-container {
+    width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+.exec-vp-container {
+    width: 33%;
+    flex-basis: 33%;
+    margin-bottom: 30px;
+}
+
+.empty-space-sixth {
+    width: 16.67%;
+    flex-basis: 16.67%;
+}
+
+.empty-space-third {
+    width: 33.33%;
+    flex-basis: 33.33%;
+}
+
+.exec-member {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exec-name {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.exec-title {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
