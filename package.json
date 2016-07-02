@@ -1,7 +1,7 @@
 {
   "name": "siasite",
   "version": "1.0.0",
-  "description": "website for sia",
+  "description": "website for SIA",
   "main": "index.js",
   "directories": {
     "test": "tests"
