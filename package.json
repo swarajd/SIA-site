@@ -31,7 +31,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "gulp build"
+      "pre-commit": "gulp build"
     }
   }
 }
