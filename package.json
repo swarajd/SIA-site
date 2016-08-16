@@ -28,10 +28,5 @@
     "gulp-concat-css": "^2.3.0",
     "harp": "^0.20.3",
     "sw-precache": "^3.2.0"
-  },
-  "git": {
-    "scripts": {
-      "pre-commit": "gulp build"
-    }
   }
 }
