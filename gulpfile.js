@@ -3,6 +3,12 @@ var harp        = require('harp')
 var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 
+var concatCss = require('gulp-concat-css');
+var cleanCSS = require('gulp-clean-css');
+
+var devCssPath = "public/";
+var prodCssPath = "public/www/";
+
 gulp.task('serve', function() {
     harp.server(__dirname + '/public', {
         port: 9000
@@ -12,9 +18,14 @@ gulp.task('serve', function() {
             open: false
         });
 
-        gulp.watch(["public/*.ejs", "public/*.css"]).on("change", function() {
+        gulp.watch(["public/*.ejs"]).on("change", function() {
             reload();
         });
+
+        gulp.watch("public/style-*.css").on("change", function() {
+            processCss(devCssPath);
+            reload();
+        })
     });
 });
 
@@ -27,7 +38,15 @@ gulp.task('build', function() {
         //     staticFileGlobs: [rootDir + '/**/*.{css,png,woff2}'],
         //     stripPrefix: rootDir,
         // }, () => {})
+        processCss(prodCssPath);
     })
 })
+
+function processCss(path) {
+    gulp.src(path + "style-*.css")
+        .pipe(concatCss("bundle.css"))
+        .pipe(cleanCSS())
+        .pipe(gulp.dest(path))
+}
 
 gulp.task('default', ['serve']);
