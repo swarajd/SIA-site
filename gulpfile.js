@@ -32,13 +32,13 @@ gulp.task('serve', function() {
 
 gulp.task('build', function() {
     harp.compile(__dirname + '/public', function() {
-        // var path = require('path');
-        // var swPrecache = require('sw-precache');
+        var path = require('path');
+        var swPrecache = require('sw-precache');
         var rootDir = 'public/www';
-        // swPrecache.write(path.join(rootDir, 'service-worker.js'), {
-        //     staticFileGlobs: [rootDir + '/**/*.{css,png,woff2}'],
-        //     stripPrefix: rootDir,
-        // }, () => {})
+        swPrecache.write(path.join(rootDir, 'service-worker.js'), {
+            staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,svg,eot,ttf,woff,woff2}'],
+            stripPrefix: rootDir,
+        }, () => {})
         processCss(prodCssPath);
     })
 })
