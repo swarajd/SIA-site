@@ -4,10 +4,3 @@
 .ig-b-v-24 { width: 137px; height: 24px; background: url(/images/insta.png) no-repeat 0 0; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 .ig-b-v-24 { background-image: url(images/insta.png); background-size: 160px 178px; } }
-
-
-.instabtn {
-    text-align: right;
-    padding-bottom: 15px;
-    padding-right: 100px;
-}

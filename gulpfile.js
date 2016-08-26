@@ -10,6 +10,7 @@ var devCssPath = "public/";
 var prodCssPath = "public/www/";
 
 gulp.task('serve', function() {
+    processCss(devCssPath);
     harp.server(__dirname + '/public', {
         port: 9000
     }, function() {
@@ -18,7 +19,7 @@ gulp.task('serve', function() {
             open: false
         });
 
-        gulp.watch(["public/*.ejs"]).on("change", function() {
+        gulp.watch(["public/**/*.ejs"]).on("change", function() {
             reload();
         });
 

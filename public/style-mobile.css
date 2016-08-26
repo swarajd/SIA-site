@@ -27,7 +27,7 @@
     }
 
     .page-content {
-        padding: 100px 100px;
+        padding: 25px 100px;
     }
 
     .site-navbar > ul > li > a {
@@ -80,6 +80,10 @@
     .event-date {
         padding: 10px 20px;
         font-size: 30px;
+    }
+
+    .site-navbar {
+        display: none;
     }
 }
 
